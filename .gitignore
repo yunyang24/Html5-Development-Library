@@ -35,9 +35,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-.DS_Store
-src/.DS_Store
+
 .idea
 less
 index.js
-
