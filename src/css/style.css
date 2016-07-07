@@ -1,0 +1,30 @@
+ul,
+ul li {
+  list-style: none;
+}
+.mt72 {
+  margin-top: 72px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.thumb {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  background-size: contain;
+  -o-background-size: contain;
+  -ms-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.panel-content {
+  height: auto !important;
+  height: 750px;
+  min-height: 750px;
+}
