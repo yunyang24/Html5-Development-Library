@@ -2,6 +2,14 @@ ul,
 ul li {
   list-style: none;
 }
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+  color: #666;
+}
 .mt72 {
   margin-top: 72px;
 }
@@ -28,4 +36,24 @@ ul li {
   height: auto !important;
   height: 750px;
   min-height: 750px;
+}
+.designer,
+.work-num {
+  padding-right: 12px;
+}
+.glyphicon-home,
+.glyphicon-th-list,
+.glyphicon-user {
+  padding-right: 6px;
+  color: #666;
+}
+.list-group-item {
+  cursor: pointer;
+}
+small {
+  padding-left: 12px;
+}
+.text-center,
+.c888 {
+  color: #888;
 }
