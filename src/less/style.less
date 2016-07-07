@@ -1,1 +1,115 @@
 /* Custom style */
+.background(@url,@size){
+  background-image: url(@url);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: @size;
+  -o-background-size: @size;
+  -ms-background-size: @size;
+  -moz-background-size: @size;
+  -webkit-background-size: @size;
+}
+.background2(@size) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: @size;
+  -o-background-size: @size;
+  -ms-background-size: @size;
+  -moz-background-size: @size;
+  -webkit-background-size: @size;
+}
+.linearGradient(@startCol,@endColor){
+  background: -moz-linear-gradient(left, @startCol 0%, @endColor 100%);
+  background: -webkit-gradient(linear, left, right, color-stop(0%,@startCol), color-stop(100%,@endColor));
+  background: -webkit-linear-gradient(left, @startCol 0%,@endColor 100%);
+  background: -o-linear-gradient(left, @startCol 0%,@endColor 100%);
+  background: -ms-linear-gradient(left, @startCol 0%,@endColor 100%);
+  background: linear-gradient(to right, @startCol 0%,@endColor 100%);
+}
+.transition(@arguments){
+  -webkit-transition: @arguments;
+  -moz-transition: @arguments;
+  -ms-transition: @arguments;
+  -o-transition: @arguments;
+  transition: @arguments
+}
+.transform(@arguments){
+  -webkit-transfrom: @arguments;
+  -moz-transfrom: @arguments;
+  -ms-transfrom: @arguments;
+  -o-transfrom: @arguments;
+  transform: @arguments;
+}
+/*旋转*/
+.rotate(@rotate) {
+  transform:rotate(@rotate);
+  -ms-transform:rotate(@rotate); 	/* IE 9 */
+  -moz-transform:rotate(@rotate); 	/* Firefox */
+  -webkit-transform:rotate(@rotate); /* Safari 和 Chrome */
+  -o-transform:rotate(@rotate);
+}
+/*左上角圆角*/
+.bordertlRadius(@bordertlRadius) {
+  -webkit-border-top-left-radius: @bordertlRadius;
+  -moz-border-top-left-radius:@bordertlRadius;
+  -ms-border-top-left-radius:@bordertlRadius;
+  -o-border-top-left-radius:@bordertlRadius;
+  border-top-left-radius: @bordertlRadius;
+}
+/*右上角圆角*/
+.bordertrRadius(@bordertrRadius) {
+  -webkit-border-top-right-radius: @bordertrRadius;
+  -moz-border-top-right-radius:@bordertrRadius;
+  -ms-bborder-top-right-radius:@bordertrRadius;
+  -o-border-top-right-radius:@bordertrRadius;
+  border-top-right-radius: @bordertrRadius;
+}
+/*左下角圆角*/
+.borderblRadius(@borderblRadius) {
+  -webkit-border-bottom-left-radius: @borderblRadius;
+  -moz-border-bottom-left-radius:@borderblRadius;
+  -ms-border-bottom-left-radius:@borderblRadius;
+  -o-border-bottom-left-radius:@borderblRadius;
+  border-bottom-left-radius: @borderblRadius;
+}
+/*右下角圆角*/
+.borderbrRadius(@borderbrRadius) {
+  -webkit-border-bottom-right-radius: @borderbrRadius;
+  -moz-border-bottom-right-radius:@borderbrRadius;
+  -ms-border-bottom-right-radius:@borderbrRadius;
+  -o-border-bottom-right-radius:@borderbrRadius;
+  border-bottom-right-radius: @borderbrRadius;
+}
+/*圆角*/
+.borderRadius(@borderRadius) {
+  -webkit-border-radius: @borderRadius;
+  -moz-border-radius: @borderRadius;
+  -ms-border-radius: @borderRadius;
+  -o-border-radius: @borderRadius;
+  border-radius: @borderRadius;
+}
+/*阴影*/
+.boxShadow(@boxShadowColor) {
+  -webkit-box-shadow:0 2px 2px @boxShadowColor;
+  -moz-box-shadow:0 2px 2px @boxShadowColor;
+  -ms-box-shadow:0 2px 2px @boxShadowColor;
+  -o-box-shadow:0 2px 2px @boxShadowColor;
+  box-shadow:0 2px 2px @boxShadowColor;
+}
+.boxShadow2(@i,@x,@y,@r,@boxShadowColor) {
+  -webkit-box-shadow:@i @x @y @r @boxShadowColor;
+  -moz-box-shadow:@i @x @y @r @boxShadowColor;
+  -ms-box-shadow:@i @x @y @r @boxShadowColor;
+  -o-box-shadow:@i @x @y @r @boxShadowColor;
+  box-shadow:@i @x @y @r @boxShadowColor;
+}
+//计算高度
+.height(@nums,@x,@y) {
+  height: @nums*@y/@x;
+}
+@mainColor:#00d1ce;
+@errorColor:#ef2c55;
+@mainBackground: #f8f8f8;
+@boxShadowColor: #ddd;
+@c1: #f58201;
+@c2: #999;
