@@ -35,12 +35,14 @@ ul, ul li { list-style: none; }
   height:750px;
   min-height:750px;
 }
-.designer, .work-num, .work-type {
+.designer, .work-num, .work-type, .article-type {
   padding-right: 12px;
 }
-.glyphicon-home, .glyphicon-th-list,.glyphicon-user {
-  padding-right: 6px;
+.glyphicon-home, .glyphicon-th-list,.glyphicon-user,.glyphicon-time,.glyphicon-star, .glyphicon-sort-by-attributes-alt, .glyphicon-book {
   color: #666;
+}
+.glyphicon-home, .glyphicon-th-list, .glyphicon-sort-by-attributes-alt, .glyphicon-user {
+  padding-right: 6px;
 }
 .list-group-item {
   cursor: pointer;
@@ -62,4 +64,21 @@ h4.text-center, .c888, .text-content p {
   a {
     padding: 0 6px;
   }
+}
+.ranking {
+  .list-group-item {
+    cursor: auto;
+  }
+  .pull-right {
+    vertical-align: text-top;
+  }
+}
+.article-item {
+  margin-bottom: 0;
+}
+.article-item dt {
+  padding-bottom: 6px;
+}
+.article-type-info {
+  padding: 6px 0 12px 0;
 }

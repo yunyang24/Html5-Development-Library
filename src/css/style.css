@@ -46,14 +46,24 @@ h6 {
 }
 .designer,
 .work-num,
-.work-type {
+.work-type,
+.article-type {
   padding-right: 12px;
 }
 .glyphicon-home,
 .glyphicon-th-list,
+.glyphicon-user,
+.glyphicon-time,
+.glyphicon-star,
+.glyphicon-sort-by-attributes-alt,
+.glyphicon-book {
+  color: #666;
+}
+.glyphicon-home,
+.glyphicon-th-list,
+.glyphicon-sort-by-attributes-alt,
 .glyphicon-user {
   padding-right: 6px;
-  color: #666;
 }
 .list-group-item {
   cursor: pointer;
@@ -75,4 +85,19 @@ h4.text-center,
 }
 .text-keyword a {
   padding: 0 6px;
+}
+.ranking .list-group-item {
+  cursor: auto;
+}
+.ranking .pull-right {
+  vertical-align: text-top;
+}
+.article-item {
+  margin-bottom: 0;
+}
+.article-item dt {
+  padding-bottom: 6px;
+}
+.article-type-info {
+  padding: 6px 0 12px 0;
 }
