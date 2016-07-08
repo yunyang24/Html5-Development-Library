@@ -8,7 +8,7 @@ ul li {
 h4,
 h5,
 h6 {
-  color: #666;
+  color: #333;
 }
 .mt72 {
   margin-top: 72px;
@@ -16,8 +16,15 @@ h6 {
 .mb20 {
   margin-bottom: 20px;
 }
+.mt20 {
+  margin-top: 20px;
+}
 .mr20 {
   margin-right: 20px;
+}
+.b_line {
+  padding-bottom: 10px;
+  border-bottom: 1px #eee solid;
 }
 .thumb {
   display: block;
@@ -38,7 +45,8 @@ h6 {
   min-height: 750px;
 }
 .designer,
-.work-num {
+.work-num,
+.work-type {
   padding-right: 12px;
 }
 .glyphicon-home,
@@ -53,7 +61,18 @@ h6 {
 small {
   padding-left: 12px;
 }
-.text-center,
-.c888 {
+h4.text-center,
+.c888,
+.text-content p {
   color: #888;
+}
+.text-content img {
+  width: auto!important;
+  width: 640px;
+  max-width: 640px;
+  height: auto;
+  border: none;
+}
+.text-keyword a {
+  padding: 0 6px;
 }
