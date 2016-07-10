@@ -26,6 +26,11 @@ h6 {
   padding-bottom: 10px;
   border-bottom: 1px #eee solid;
 }
+.row {
+  width: auto !important;
+  width: 480px;
+  min-width: 480px;
+}
 .thumb {
   display: block;
   text-align: center;
@@ -73,8 +78,12 @@ small {
 }
 h4.text-center,
 .c888,
-.text-content p {
+.text-content p,
+.form-group label {
   color: #888;
+}
+.red {
+  color: red;
 }
 .text-content img {
   width: auto!important;
@@ -100,4 +109,44 @@ h4.text-center,
 }
 .article-type-info {
   padding: 6px 0 12px 0;
+}
+.news-list {
+  padding-left: 0;
+}
+.news-list li {
+  padding-left: 10px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.news-list li span.dot {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 5px;
+  height: 5px;
+  background-color: #ddd;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.userhead {
+  padding: 25px 0;
+  border-bottom: 1px #eee solid;
+}
+.sidebar a {
+  color: #888;
+}
+table tr td {
+  color: #888;
+}
+table tr td a {
+  padding-right: 5px;
+}
+.sidebar a.curr,
+span.weike,
+span.blacklist {
+  color: #337ab7;
+}
+span.weike,
+span.blacklist {
+  cursor: pointer;
 }
