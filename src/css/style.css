@@ -143,10 +143,18 @@ table tr td a {
 }
 .sidebar a.curr,
 span.weike,
-span.blacklist {
+span.blacklist,
+span.promote,
+span.del,
+span.add,
+span.edit {
   color: #337ab7;
 }
 span.weike,
-span.blacklist {
+span.blacklist,
+span.promote,
+span.del,
+span.add,
+span.edit {
   cursor: pointer;
 }
